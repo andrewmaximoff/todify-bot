@@ -14,7 +14,7 @@ import os
 
 
 # Core settings for Telegram bot
-BASE_URL = '7ffdf4b2.ngrok.io'
+BASE_URL = os.getenv('BASE_URL')
 TOKEN = os.getenv('TOKEN')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
